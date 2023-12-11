@@ -1,0 +1,376 @@
+/*Css Styles*/
+
+* {padding: 0;
+margin: 0;
+box-sizing: border-box;}
+
+body { font-size: 100%;
+    font-family: verdana, helvetica, arial;
+   background: #000;
+background-image: linear-gradient(118.75deg, #000000 67.74% , #166d3b 0%); 
+}
+
+body.about {background: #000;
+background-image: linear-gradient(118.75deg, #000000 72.75% , #166d3b 0%); }
+
+body.picture {background: #000;
+background-image: linear-gradient(118.75deg, #000000 66.44% , #166d3b 0%); }
+
+body.session {background: #000;
+background-image: linear-gradient(118.75deg, #000000 75.80% , #166d3b 0%); }
+
+body.thx {background: #000;
+background-image: linear-gradient(118.75deg, #000000 85.70% , #166d3b 0%); }
+
+body.contact {background: #000;
+background-image: linear-gradient(118.75deg, #000000 70.19% , #166d3b 0%); }
+
+
+body.home #wrapper {
+width: 940px;
+margin: 240px auto 20px auto;
+background:  #ccc;}
+
+body.about #wrapper {
+width: 940px;
+margin: 349px auto 20px auto;
+background:  #ccc;
+padding-bottom: 20px;
+padding-top: 5px;
+    
+}
+
+body.picture #wrapper {
+width: 940px;
+margin: 349px auto 20px auto;
+background:  #ccc;
+padding-bottom: 20px;
+padding-top: 5px;
+    
+}
+
+body.session #wrapper {
+width: 940px;
+margin: 349px auto 20px auto;
+background:  #ccc;
+padding-bottom: 20px;
+padding-top: 5px;
+    
+}
+
+body.thx #wrapper {
+width: 940px;
+margin: 340px auto 20px auto;
+background:  #ccc;
+padding-bottom: 20px;
+padding-top: 5px;
+    
+}
+
+
+body.contact #wrapper {
+width: 940px;
+margin: 349px auto 20px auto;
+background:  #ccc;
+padding-bottom: 20px;
+padding-top: 5px;
+    
+}
+
+header {position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+background-color: #166d3b;
+background-image: linear-gradient(147deg, #166d3b 0%, #000000 74%);
+
+
+}
+
+header img {
+    width: 940px;
+margin: 20px auto 20px auto; }
+
+nav{ height: 50px;
+    line-height: 50px;
+    background: #333;
+    
+}
+
+nav ul{width: 1100px; 
+margin: 0 auto;
+}
+
+nav li { 
+float: left;
+list-style-type: none;
+width: 20%;
+text-align: center; 
+    
+}
+
+nav a {
+    text-decoration: none;
+    display: block;
+    color: white;
+}
+
+nav a:hover {background: #166D3B;
+}
+
+
+#banner{
+    margin-bottom:20px;
+}
+
+
+
+main{ overflow: hidden;
+    width:560px;
+    float: left;
+    padding: 25px;
+    
+}
+
+
+aside {border: 3px dotted #666;
+    width: 340px;
+    float: right;
+    padding: 15px;
+    margin-right: 20px;
+    
+}
+
+
+/**Contact Page Aside**/
+aside.contact {border: 3px dotted #666;
+    width: 340px;
+    float: right;
+    padding: 15px;
+    margin-right: 20px}
+
+aside h3 { padding-bottom: 10px;}
+aside h4 {text-align: left;
+text-decoration-line: underline;
+font-size: .865em;
+line-height: 1.5;  
+margin-left: 20px;   
+}
+
+
+aside ul{text-align: right;
+    list-style-type: none;
+font-size: .83em;
+line-height: 1;  
+ }
+
+aside li {padding-bottom: 10px;
+margin-bottom: auto;}
+
+
+
+
+
+
+aside.session {border: 3px dotted #666;
+    width: 340px;
+    float: right;
+    padding: 15px;
+    margin-right: 20px}
+
+aside.session h3 {margin-bottom: 7px;
+font-family: "Times New Roman",serif;
+font-size: 1.750em;
+line-height: 1.1;
+text-align: center;
+font-style: italic;}
+
+
+footer { border-top: 1px dotted #666;
+    height: 50px;
+    line-height: 50px;
+       clear:both;    
+}
+
+footer ul { padding-left: 20px;}
+
+footer li { float: left;
+list-style-type: none;
+margin-right: 30px;
+font-size: .875em;
+color:#666;     
+}
+
+footer a { color: #666;
+}
+
+img {max-width: 100%;
+     display: block;
+}
+
+figure {margin-bottom: 20px;}
+
+figcaption { padding: 8px;
+    background: lightblue;
+    font-size: .84em;
+    font-style: italic;
+    text-align: center;
+}
+
+
+
+
+
+
+/*++++++++++Typography/Font++++++++++*/
+
+p {margin-bottom: 20px;
+ line-height: 1.5;
+}
+
+p.background {
+background: lightblue;
+padding: 20px;
+font-family: "Times New Roman",serif;
+font-size: 1.463em;
+line-height: 1.2;
+font-style: italic;}
+
+main h1 {padding-bottom: 10px;}
+
+main a { color: #666;
+}
+
+aside p {font-size: .875em;
+color: #666;
+text-align: center;    
+}
+
+aside p cite {font-weight: bold;
+color:#555;   
+font-size: .825em;    
+}
+
+
+
+h1 { margin-bottom: 7px;
+    font-family: "Times New Roman",serif;
+font-size: 2.441em;
+line-height: 1.15;
+text-align: center;}
+
+h2 { margin-bottom: 7px;
+    font-family: "Times New Roman",serif;
+    font-size: 1.953em;
+    line-height: 1.15;
+    text-align: center;
+}
+
+h3 + figure { margin: 12px 0 20px 0;
+    
+}
+
+h3 { margin-bottom: 7px;
+font-family: "Times New Roman",serif;
+font-size: 1.750em;
+line-height: 1.1;
+text-align: center;
+font-style: italic;}
+
+
+/***Social Media***/
+.fa {
+  padding: 0px;
+  font-size: 20px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+
+  
+/*MAIN FORM*/    
+    
+    
+form{ 
+max-width: 550px;
+padding-left: 10px;
+padding-bottom: 20px; 
+  
+    }   
+
+fieldset { 
+    padding-left: 25px;
+    border: 3px dotted green;
+    padding-bottom: 20px;
+}
+  
+label { 
+display: block;
+margin-bottom: 10px;
+font-family: "Times New Roman",serif;
+font-size: 1em;
+line-height: 1.5;    
+}
+    
+input [type=text],
+input [type=email] {
+    height: 20px;
+    width: 98%; 
+    margin-bottom: 10px;
+    margin-left: 20px; 
+} 
+    
+  
+input [type=radio],
+input [type=checkbox]{
+margin-right: 7px;
+} 
+     
+
+form ul { 
+margin-bottom: 10px;
+    }
+        
+form  li {
+   list-style-type: none;
+    margin-left: 10px;
+    margin-bottom: 4px;
+    }    
+    
+    
+
+textarea {
+    width: 96%;
+    margin-bottom: 10px;
+    resize: both;
+    }   
+    
+legend {
+    margin-bottom: 7px;
+    font-family: "Times New Roman",serif;
+font-size: 2.441em;
+line-height: 1.15;
+text-align: center;
+    font-weight: bolder;
+    
+    }    
+
+
+
+
+    
+    
+
+
+
+
+
+
+
